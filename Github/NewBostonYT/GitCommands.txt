@@ -1,0 +1,78 @@
+1) git --version: Gets the current version of git.
+
+2) git config (changing configuration) --global (is for this user) user.name "Lancaster Graham"
+
+3) git config --list (Displays all config settings)
+
+4) git config --global user.email "Lancastergraham87@gmail.com"
+
+5 Bash Command) clear (to clear screen)
+
+6) to See one setting type for example: git config user.email
+
+7) git help // git help commit
+
+8 Bash Command) pwd (Shows current location)
+
+9 Bash Command) cd ~ (Change directory to home)
+
+10 Bash Command) cd .. (Change directory backwards by one)
+
+11 Bash Command) ls (List all of the folders [directories]
+
+12 Bash Command) cd [Then drag folder or icon into git bash to get location]
+
+13 Bash Command) cd Desktop/ to change into desktop from user/Lanca
+
+14) git init (While inside the Folder to initiate a empty git repository)
+
+15) git add . (Will add everything inside the folder, the directory)
+
+15a Following git add .) git commit -m "Message" (This is the second process of actually adding the file.
+
+16) git log (Displays your commit history)
+
+16a git log) git log --author="Lancaster" will just show commits from Lancaster.
+
+17) git status (Shows any changes need to be done, what branch and working directory)
+
+17a git status) When you add anything to your git repository you can use git status to see what hasn't been commited
+allowing you to git add. and anything else necessary.
+
+15b git add) You have multiple stages when using git add it goes from
+  Working copy (local computer) > Staging area (after using git add) > Repository (After using git commit)
+  
+15c git add) git add SecondCommit.txt (adds specifically the file I want to commit)
+
+18 Viewing changes) git diff (Shows the differences from repository and on working copy)
+
+18a git diff) git diff --staged (Shows the difference from the staging area.)
+
+19) git rm <file name> (Removes the file or folder from the git repository)
+
+19a) requires a git commit following the git rm
+
+20) git mv SecondCommit pudding.txt (Moves the file or renames it.)
+
+21 Bash Command) mkdir <folder name> (Makes a directory do not used brackets)
+
+20a git mv into new directory) git mv pudding.txt LoveNotes/pudders.txt (This moves the file into a new directory and renames it
+
+20b git mv into new directory) git mv pudding.txt LoveNotes/ (Should move the file and not rename it.)
+
+21) git commit -am "Message" (This takes files from working copy directly to repository)
+
+22) git checkout -- index.html (Takes the copy from the repository turns it into the working copy).
+
+22a git checkout continues) git checkout <Commit id> -- index.html
+
+23 Bash Command) touch filename.extension (This creates a file in the directory.)
+
+24) git remote add GitHubRepo https://github.com/Lancastergraham/Youtube-Tutorials.git
+
+25 Bash Command) Control + Shift + insert to paste. *Can highlight to copy then use Ctrl + shft + ins to paste as well.
+
+26) git push to push to the server
+
+27) git fetch to pull from the server.
+
